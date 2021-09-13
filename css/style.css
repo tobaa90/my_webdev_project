@@ -1,0 +1,22 @@
+* {margin: 0; padding: 0; box-sizing: border-box;}
+body {background-image: url(../img/nbtbg.jpg); background-size: cover; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+nav {position: fixed; top: 0;}
+.nav-ico {top: 0; left: 90px;}
+nav ul li {list-style-type: none; background-color: rgba(128, 128, 128, 0.7); margin-bottom: 2px;}
+nav ul li a {display: block; padding: 1rem 2rem; color: white; text-decoration: none; font-size: 24px;}
+.nav-ico ul li a:hover {background-color: rgba(150, 255, 40, 0.7); padding-left: 2.7rem; padding-right: 1.3rem;}
+p {margin-left: 300px; margin-right: 100px; color: white}
+.actv {background-color: rgba(150, 255, 40, 0.7);}
+.nav-soc {top: 350px; left: -100px}
+.nav-soc:hover {left: auto}
+.nav-soc ul li {background-color: white; border-radius: 5%; margin-bottom: 20px;}
+.nav-soc ul li a:hover {background-color: rgba(150, 255, 40, 0.7); border-radius: 5%;}
+h1 {margin-left: 300px; color: white}
+h2 {margin-left: 300px; color: white}
+h3 {margin-left: 300px; color: white}
+figure {margin-left: 300px;}
+.row1 {width: 20%; height: auto; margin: 10px}
+.hist {font-size: 24px;}
+.start {width: 30%; height: auto; margin: 30px}
+form {color: white}
+.form {margin-left: auto;}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JHW Ekwafo Centre - Contact us</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a><img src="./img/home.png" alt="Home"></a></li>
+            <li><a><img src="./img/history.png" alt="History"></a></li>
+            <li><a><img src="./img/gallery.png" alt="Gallery"></a></li>
+            <li><a><img src="./img/location.png" alt="Location"></a></li>
+            <li class="actv"><a><img src="./img/contact.png" alt="Contact"></a></li>
+        </ul>
+    </nav>
+    <nav class="nav-ico">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</nav>
+<nav class="nav-soc">
+    <ul>
+        <li><a href="https://www.facebook.com/"><img src="./img/fb.png" alt="Facebook"></a></li>
+        <li><a href="https://www.instagram.com/"><img src="./img/insta.png" alt="Instagram"></a></li>
+        <li><a href="https://twitter.com/"><img src="./img/twitter.png" alt="Twitter"></a></li>
+    </ul>
+</nav>
+<main>
+    <figure>
+    <form action="#">
+        <p class="form" >Please let us know why you're contacting us:</p>
+        <input type="radio" name="reason" value="vol" id="reas1"> 
+        <label for="agegr1">Voluntary work</label><br>
+        <input type="radio" name="age" value="don" id="reas2"> 
+        <label for="agegr2">I want to donate and support the TB-project</label><br>
+        <input type="radio" name="age" value="sug" id="reas3"> 
+        <label for="agegr3">Suggestions / other</label><br>
+        <br>
+        <label for="fn">First name:</label><br>
+        <input type="text" name="firstname" id="fn"><br>
+        <br>
+        <label for="ln">Last name:</label><br>
+        <input type="text" name="lastname" id="ln"><br>
+        <br>
+        <label for="mail">Email address:</label><br>
+        <input type="email" name="email" id="mail" required><br>
+        <br>
+        <p class="form">Please specify your age group:</p>
+        <input type="radio" name="age" value="18-29" id="agegr1"> 
+        <label for="agegr1">18 - 29 years</label><br>
+        <input type="radio" name="age" value="30-49" id="agegr2"> 
+        <label for="agegr2">30 - 49 years</label><br>
+        <input type="radio" name="age" value="50-69" id="agegr3"> 
+        <label for="agegr3">50 - 69 years</label><br>
+        <input type="radio" name="age" value="70+" id="agegr4"> 
+        <label for="agegr4">70 years and older</label><br>
+        <input type="radio" name="age" value="na" id="agegr5" checked> 
+        <label for="agegr5">n/a</label><br>
+        <br>
+        <label for="sugbox">Tell us about yourself, and why you're writing us today:</label><br>
+        <textarea name="suggestion" id="sugbox" cols="30" rows="5"></textarea><br>
+        <br>
+        <input type="reset" value="Reset the form">
+        <input type="submit" value="Submit">
+    </figure>
+</main>
+</body>
+</html>
